@@ -1,0 +1,1 @@
+<%@ ServiceHost Service="Lab7_Service.Feed1" %>

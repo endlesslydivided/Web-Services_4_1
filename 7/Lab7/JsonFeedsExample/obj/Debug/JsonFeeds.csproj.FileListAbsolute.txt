@@ -1,0 +1,8 @@
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\JsonFeedsExample\bin\Debug\JsonFeeds.exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\JsonFeedsExample\bin\Debug\JsonFeeds.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\JsonFeedsExample\bin\Debug\JsonFeeds.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\JsonFeedsExample\obj\Debug\JsonFeeds.csproj.AssemblyReference.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\JsonFeedsExample\obj\Debug\JsonFeeds.csproj.SuggestedBindingRedirects.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\JsonFeedsExample\obj\Debug\JsonFeeds.csproj.CoreCompileInputs.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\JsonFeedsExample\obj\Debug\JsonFeeds.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\JsonFeedsExample\obj\Debug\JsonFeeds.pdb

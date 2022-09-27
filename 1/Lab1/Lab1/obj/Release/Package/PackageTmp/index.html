@@ -1,0 +1,83 @@
+<html>
+<head>
+</head>
+<body>
+
+
+    <div action="/.KAA" method="POST">
+        <label for="result">Поместить данные в result:</label>
+        <input type="number" id="resultInput" name="result" />
+        <button onclick="Fetch('POST')">Post</button><br />
+    </div>
+
+    <br />
+
+    <div action="/.KAA" method="PUT">
+        <label for="add">Поместить данные в stack:</label>
+        <input type="number" id="addInput" name="add" />
+        <button onclick="Fetch('PUT')">Put</button><br />
+    </div>
+
+    <label>Получить данные:</label>
+    <button onclick="Fetch('GET')">Get</button><br />
+    <br />
+
+    <label for="result">Удалить элемент из стека:</label>
+    <button onclick="Fetch('DELETE')">Delete</button><br />
+    <h1>Результат:</h1>
+    <h1 id="result"></h1>
+
+    <script>
+        const Fetch = async (method) => {
+            let body = {};
+
+            if (method === "POST") {
+                body.result = +document.querySelector('#resultInput').value;
+            }
+            if (method === "PUT") {
+                body.add = +document.querySelector('#addInput').value;
+            }
+
+            const headers =
+            {
+                'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+            }
+
+            try {
+                let generatedParams = '';
+
+                if (body.add) {
+                    generatedParams += `?add=${body.add}`
+                }
+                if (body.result) {
+                    generatedParams += `?result=${body.result}`
+                }
+                const response = await fetch(`/.KAA${generatedParams}`,
+                    { method, headers }
+                );
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.message || 'Something wrong');
+                }
+
+                else {
+                    var result = document.getElementById("result");
+                    result.innerHTML = `${data.status}-${data.result}-${data.stack}`
+                    console.log(`Status: ${data.status}`);
+                    console.log(`Result: ${data.result}`);
+                    console.log(`Stack: ${data.stack}`);
+                }
+            }
+
+            catch (e) {
+                var result = document.getElementById("result");
+                result.innerHTML = `${e.message}`
+                throw e;
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>

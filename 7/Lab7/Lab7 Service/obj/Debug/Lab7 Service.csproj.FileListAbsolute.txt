@@ -1,0 +1,17 @@
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\Lab7 Service.dll.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\Lab7 Service.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\Lab7 Service.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\obj\Debug\Lab7 Service.csproj.AssemblyReference.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\obj\Debug\Lab7 Service.csproj.CoreCompileInputs.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\obj\Debug\Lab7 Service.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\obj\Debug\Lab7 Service.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\Newtonsoft.Json.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\Newtonsoft.Json.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\obj\Debug\Lab7 Service.csproj.CopyComplete
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\Serilog.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\System.ServiceModel.Syndication.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\Serilog.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\System.ServiceModel.Syndication.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\JsonFeeds.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\JsonFeeds.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Service\bin\Debug\JsonFeeds.exe.config

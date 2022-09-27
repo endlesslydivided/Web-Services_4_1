@@ -1,0 +1,21 @@
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\obj\Debug\Lab7 Host.csproj.AssemblyReference.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\obj\Debug\Lab7 Host.csproj.SuggestedBindingRedirects.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\obj\Debug\Lab7 Host.csproj.CoreCompileInputs.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Lab7 Host.exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Lab7 Host.exe.manifest
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Lab7 Host.application
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Lab7 Host.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Lab7 Host.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Lab7 Service.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Newtonsoft.Json.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Lab7 Service.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Lab7 Service.dll.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\Newtonsoft.Json.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\obj\Debug\Lab7 Host.exe.manifest
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\obj\Debug\Lab7 Host.application
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\obj\Debug\Lab7 Host.csproj.CopyComplete
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\obj\Debug\Lab7 Host.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\obj\Debug\Lab7 Host.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\JsonFeeds.exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\JsonFeeds.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\7\Lab7\Lab7 Host\bin\Debug\JsonFeeds.exe.config

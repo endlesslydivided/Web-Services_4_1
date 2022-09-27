@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+    </startup>
+	<system.web>
+		<compilation debug="true" />
+	</system.web>
+	<system.serviceModel>
+		<services>
+			<service name="Lab7_Service.Feed1" behaviorConfiguration="Lab7_Service.serviceBehavior">
+				<host>
+					<baseAddresses>
+						<add baseAddress="http://localhost:40001/Lab7_Service/" />
+					</baseAddresses>
+				</host>
+				<endpoint address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+				<endpoint contract="Lab7_Service.IFeed1" address="Feed1" binding="webHttpBinding" behaviorConfiguration="Lab7_Service.endpointBehavior"/>
+			</service>
+		</services>
+		<behaviors>
+			<serviceBehaviors>
+				<behavior name="Lab7_Service.serviceBehavior">
+					<serviceMetadata httpGetEnabled="true"/>
+				</behavior>
+			</serviceBehaviors>
+
+			<endpointBehaviors>
+				<behavior name="Lab7_Service.endpointBehavior">
+					<webHttp/>
+				</behavior>
+			</endpointBehaviors>
+		</behaviors>
+		
+	</system.serviceModel>
+	<system.webServer>
+		<httpProtocol>
+			<customHeaders>
+				<add name="Access-Control-Allow-Origin" value="*"/>
+				<add name="Access-Control-Allow-Headers" value="Content-Type"/>
+				<add name="Access-Control-Allow-Methods" value="GET, POST, PUT, DELETE, OPTIONS"/>
+			</customHeaders>
+		</httpProtocol>
+	</system.webServer>
+</configuration>

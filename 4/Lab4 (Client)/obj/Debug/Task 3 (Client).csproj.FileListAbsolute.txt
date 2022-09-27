@@ -1,0 +1,11 @@
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\bin\Debug\Task 3 (Client).exe.config
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\bin\Debug\Task 3 (Client).exe
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\bin\Debug\Task 3 (Client).pdb
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\obj\Debug\Task 3 (Client).csproj.AssemblyReference.cache
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\obj\Debug\Task 3 (Client).csproj.SuggestedBindingRedirects.cache
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\obj\Debug\Task_3__Client_.Form1.resources
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\obj\Debug\Task_3__Client_.Properties.Resources.resources
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\obj\Debug\Task 3 (Client).csproj.GenerateResource.cache
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\obj\Debug\Task 3 (Client).csproj.CoreCompileInputs.cache
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\obj\Debug\Task 3 (Client).exe
+D:\ALEX\STUDY\6SEM_3COURSE\Экзамены\Exams-6-sem-\ASP\Tasks\Task 3 (ASMX)\Task 3 (Client)\obj\Debug\Task 3 (Client).pdb

@@ -1,0 +1,38 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost:851/">
+    <file relUrl="bin/Lab5.dll.config" publishTime="09/14/2022 12:54:49" />
+    <file relUrl="bin/Lab5.pdb" publishTime="09/14/2022 12:53:55" />
+    <file relUrl="bin/Lab5.dll" publishTime="09/14/2022 12:53:55" />
+    <file relUrl="Lab5.Simplex.svc" publishTime="09/14/2022 13:09:07" />
+    <file relUrl="Web.config" publishTime="09/14/2022 12:54:49" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5\bin\Publish\">
+    <file relUrl="bin\Publish\bin/Lab5.dll.config" publishTime="09/14/2022 12:16:35" />
+    <file relUrl="bin\Publish/Web.config" publishTime="09/14/2022 12:16:35" />
+    <file relUrl="A.cs" publishTime="09/14/2022 10:04:14" />
+    <file relUrl="bin\Debug/Lab5.pdb" publishTime="09/14/2022 12:26:54" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="09/14/2022 09:50:19" />
+    <file relUrl="Simplex.cs" publishTime="09/14/2022 10:04:14" />
+    <file relUrl="Lab5.csproj" publishTime="09/14/2022 10:23:44" />
+    <file relUrl="bin\Publish/Simplex.cs" publishTime="09/14/2022 10:04:14" />
+    <file relUrl="bin\Publish/A.cs" publishTime="09/14/2022 10:04:14" />
+    <file relUrl="bin\Publish\bin/Lab5.pdb" publishTime="09/14/2022 12:26:54" />
+    <file relUrl="bin\Publish/Lab5.Simplex.svc" publishTime="09/14/2022 12:30:42" />
+    <file relUrl="ISimplex.cs" publishTime="09/14/2022 10:04:14" />
+    <file relUrl="bin/Lab5.pdb" publishTime="09/14/2022 12:26:54" />
+    <file relUrl="bin\Publish/ISimplex.cs" publishTime="09/14/2022 10:04:14" />
+    <file relUrl="bin/Lab5.dll" publishTime="09/14/2022 12:26:54" />
+    <file relUrl="bin\Debug/Lab5.dll" publishTime="09/14/2022 12:26:54" />
+    <file relUrl="bin\Publish\bin/Lab5.dll" publishTime="09/14/2022 12:26:54" />
+    <file relUrl="bin\Publish/Lab5.csproj" publishTime="09/14/2022 10:23:44" />
+    <file relUrl="Lab5.Simplex.svc" publishTime="09/14/2022 12:30:42" />
+    <file relUrl="bin\Publish/App.config" publishTime="09/14/2022 12:16:35" />
+    <file relUrl="bin\Publish/Lab5.csproj.user" publishTime="09/14/2022 12:26:51" />
+    <file relUrl="bin\Debug/Lab5.dll.config" publishTime="09/14/2022 12:16:35" />
+    <file relUrl="Lab5.csproj.user" publishTime="09/14/2022 12:26:51" />
+    <file relUrl="App.config" publishTime="09/14/2022 12:16:35" />
+    <file relUrl="Web.config" publishTime="09/14/2022 12:16:35" />
+    <file relUrl="Lab5.Publish.xml" publishTime="09/14/2022 12:26:56" />
+    <file relUrl="bin/Lab5.dll.config" publishTime="09/14/2022 12:16:35" />
+  </publishTarget>
+</publishData>

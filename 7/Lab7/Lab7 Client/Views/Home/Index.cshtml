@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row">
+    <h1>Lab 7</h1>
+
+    <h2 id="output"></h2>
+    <input type="button" onclick="Send()" value="Send"/>
+    <script>
+
+        async function Send()
+        {
+            fetch('http://localhost:40001/Lab7_Service/Feed1/Student',
+                {
+                    method: "GET",                    
+                    credentials: "include"
+                })
+                .then((response) => { return response.json() })
+                .then((data) =>
+                {
+                    document.getElementById("output").innerHTML = data
+                })
+
+        }
+     
+    </script>
+</div>

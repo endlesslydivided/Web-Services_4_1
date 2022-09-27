@@ -1,0 +1,88 @@
+﻿<html>
+<head>
+</head>
+<body>
+
+
+    <div action="/api/values" method="POST">
+        <label for="result">Поместить данные в result:</label>
+        <input value="0" type="number" id="resultInput" name="result" />
+        <button onclick="Ajax('POST')">Post</button><br />
+    </div>
+    <br />
+    <div action="/api/values" method="PUT">
+        <label for="add">Поместить данные в stack:</label>
+        <input value="0" type="number" id="addInput" name="add" />
+        <button onclick="Ajax('PUT')">Put</button><br />
+    </div>
+
+    <br />
+    <label>Получить данные:</label>
+    <button onclick="Ajax('GET')">Get</button><br />
+
+    <label for="result">Удалить элемент из стека:</label>
+    <button onclick="Ajax('DELETE')">Delete</button><br />
+    <h1 id="result"></h1>
+    <script>
+        const Ajax = async (method) =>
+        {
+            let data = {};
+            if (method === "POST")
+            {
+                data.result = +document.querySelector('#resultInput').value;
+            }
+            if (method === "PUT")
+            {
+                data.add = +document.querySelector('#addInput').value;
+            }
+
+            const headers =
+            {
+                'Content-Type': 'application/json'
+            }
+
+            try
+            {
+                var response;
+                var body = JSON.stringify(data);
+                if (method === "POST" || method === "PUT")
+                {
+                    response = await fetch(`/api/values`,
+                        {
+                            method,
+                            headers,
+                            body
+                        }
+                    );
+                }
+                else
+                {
+                    response = await fetch(`/api/values`,
+                        {
+                            method,
+                            headers
+                        }
+                    );
+                }
+                const result = await response.json();
+
+                if (!response.ok)
+                {
+                    throw new Error(result.error.message || 'Something wrong');
+                }
+                else
+                {
+                    document.getElementById("result").innerHTML = `${result.result}-${result.stack}`;
+                    console.log(`Result: ${result.result}`);
+                    console.log(`Stack: ${result.stack}`);
+                }
+            }
+            catch (e) {
+                document.getElementById("result").innerHTML = `${e.message}`;
+            }
+
+            return false;
+        }
+    </script>
+</body>
+</html>

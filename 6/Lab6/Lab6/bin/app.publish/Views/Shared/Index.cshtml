@@ -1,0 +1,36 @@
+﻿@{ 
+    ViewBag.Title = "Client";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Client</title>
+</head>
+<body>
+    <h1 id="result"></h1>
+    <input type="button" onclick="Send()" value="Send"/>
+    <script>
+        async function Send() {
+            await fetch('/StudentService.svc/Student?$format=json',
+                {
+                    method: 'GET'
+
+                })
+                .then
+                (
+                    (response) =>
+                    {
+                        return response.json();
+                    }
+                )
+                .then(
+                    (data) =>
+                    {
+                        data.value.forEach((item) => {
+                            document.getElementById("result").innerHTML += `${item.id}.${item.name} <br/>`
+                        })
+                    }
+                );
+        }
+    </script>
+</body>
+</html>

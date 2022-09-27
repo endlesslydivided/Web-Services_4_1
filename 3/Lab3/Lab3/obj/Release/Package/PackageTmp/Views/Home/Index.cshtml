@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>index</title>
+    <meta charset="utf-8" />
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div class="container-fluid text-center m-2">
+        <div class="row justify-content-center">
+            <div class="col-3">Id</div>
+            <div class="col-6"><input type="text" id="id" /></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">Sort</div>
+            <div class="col-6"><input type="text" id="sort" /></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">Offset</div>
+            <div class="col-6"><input type="text" id="offset" /></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">Limit</div>
+            <div class="col-6"><input type="text" id="limit" /></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">MinId</div>
+            <div class="col-6"><input type="text" id="minid" /></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">MaxId</div>
+            <div class="col-6"><input type="text" id="maxid" /></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">Like</div>
+            <div class="col-6"><input type="text" id="like" /></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">GlobalLike</div>
+            <div class="col-6"><input type="text" id="global_like" /></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">Columns</div>
+            <div class="col-6"><input type="text" id="columns" /></div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <input  type="button" class="col-4 mx-1 btn btn-success rounded-0" onclick="getStudents()" value="Get students" />
+        <input type="button" class="col-4  mx-1  btn btn-success rounded-0" onclick="getStudetsXML()" value="Get students XML" />
+    </div>
+    <div>
+        <div class="container-fluid text-center m-2">
+            <div class="row justify-content-center">
+                <div class="col-3">Name</div>
+                <div class="col-6"><input type="text" id="name-post" /></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">Phone</div>
+                <div class="col-6"><input type="text" id="phone-post" /></div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <input type="button" class="col-2 m-3 btn btn-sucess rounded-0"  onclick="createStudent()" value="Add student" />
+
+        </div>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr id="tableTr">
+                
+            </tr>
+        </thead>
+
+        <tbody id="tbl">
+        </tbody>
+    </table>
+    <textarea id="tbl1"  class="w-100">
+
+    </textarea>
+
+        <div id="ans">
+
+        </div>
+        <script>
+        getStudents();
+
+            async function createStudent() {
+                let data =
+                {
+                    name: $("#name-post").val(),
+                    phone: $("#phone-post").val()
+                }
+
+                fetch('/api/student',
+                    {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(data)
+                    })
+
+                    .then((response) => {
+                        return response.json();
+                    })
+
+                    .then((data) => {
+                        console.log(data);
+                    });
+            }
+
+            async function updateStudent(id) {
+                let data =
+                {
+                    name: document.getElementById(`${id}Name`).value,
+                    phone: document.getElementById(`${id}Phone`).value
+                }
+
+                fetch(`/api/student/${id}`,
+                    {
+                        method: 'PUT',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(data)
+                    })
+
+                    .then((response) => {
+                        return response.json();
+                    })
+
+                    .then((data) => {
+                        console.log(data);
+                    });
+            }
+
+            async function deleteStudent(id) {
+                fetch(`/api/student/${id}`,
+                    {
+                        method: 'DELETE'
+                    })
+
+                    .then((response) => {
+                        console.log("Delete successful");
+                    })
+            }
+
+
+            async function getStudetsXML() 
+            {
+                fetch(`/api/student?type=xml`,
+                    {
+                        method: 'GET',
+                    })
+
+                    .then((response) => {
+                        return response.text()
+                    })
+
+                    .then((xml) => {
+                        console.log(xml)
+                        $("#tbl1").val(`<xmp>${xml.toString()}</xmp>`);
+                    })
+                return;
+            }
+
+            async function getStudents()
+            {
+                let data = {};
+                let id;
+
+                if ($("#id").val() != "") id = $("#id").val();
+                if ($("#sort").val() != "") data["sort"] = $("#sort").val();
+                if ($("#offset").val() != "") data["offset"] = $("#offset").val();
+                if ($("#limit").val() != "") data["limit"] = $("#limit").val();
+                if ($("#minid").val() != "") data["minid"] = $("#minid").val();
+                if ($("#maxid").val() != "") data["maxid"] = $("#maxid").val();
+                if ($("#columns").val() != "") data["columns"] = $("#columns").val();
+                if ($("#global_like").val() != "") data["globalLike"] = $("#global_like").val();
+                if ($("#like").val() != "") data["like"] = $("#like").val();
+
+                if (id)
+                {
+                    fetch(`/api/student/${id}`,
+                        {
+                            method: 'GET',
+                        })
+
+                        .then((response) => {
+                            return response.json();
+                        })
+
+                        .then((result) => {
+                            let html = "";
+                            html +=
+                                `<tr>` +
+                            `<td>` + result.Id + `</td>` +
+                            (result.Name ? `<td><input type='text' id='${result.Id}Name' value='${result.Name}' name="name" /></td>` : ``) +
+                            (result.Phone ?`<td><input type='text' id='${result.Id}Phone' value='${result.Phone}' name="phone" /></td>` : ``) +
+                      
+                            `<td >` +
+                            result.Links.rel +
+                            `</td>` +
+                            `<td><a href = '` +
+                            result.Links.href +
+                            `'>get<a/>` +
+                            (result.Name && result.Phone ?`<button class="m-3 btn btn-warning rounded-0" onClick='updateStudent(${result.Id})'>Update</button>` : ``) + 
+                            `<button class="m-3 btn btn-danger rounded-0" onClick='deleteStudent(${result.Id})'>Delete</button></td>` +
+                                `</tr>`;
+
+                            $("#tbl").html(html);
+
+                            $("#tableTr").html((result.Id ? '<th scope="col">Id</th>' : '')+
+                                                (result.Name ? '<th scope="col">Name</th>' : '') +
+                                                (result.Phone ? '<th scope="col">Number</th>' : '') +
+                                                
+                                                '<th scope="col" colspan="2">Type/action</th>');
+                        });
+                    return
+                }
+                var url = new URL('/api/student', window.location.href);
+
+                url.search = new URLSearchParams(data).toString();
+                fetch(url,
+                    {
+                        method: 'GET',
+                        headers: { 'Content-Type': 'multipart/form-data' },
+                        data: data
+                    })
+
+                    .then((response) => {
+                        return response.json();
+                    })
+
+                    .then((result) => {
+                        let html = "";
+                        let i = true;
+                        console.log(result)
+                        result.forEach(result => 
+                        {
+                            if(i)
+                            {$("#tableTr").html((result.Id ? '<th scope="col">Id</th>' : '') +
+                                (result.Name ? '<th scope="col">Name</th>' : '') +
+                                (result.Phone ? '<th scope="col">Number</th>' : '') +
+                                '<th scope="col" colspan="2">Type/action</th>');
+                                i = false;
+                            }
+                                
+                            html +=
+                                `<tr>` +
+                            (result.Id ? `<td>${result.Id}</td>` : ``) +
+                            (result.Name ? `<td><input type='text' id='${result.Id}Name' value='${result.Name}' name="name" /></td>` : ``) +
+                            (result.Phone ? `<td><input type='text' id='${result.Id}Phone' value='${result.Phone}' name="phone" /></td>` : ``) +
+                                `<td >` + result.Links.rel + `</td>` +
+                            `<td><a href = '` + result.Links.href + `'>get<a/>`
+                                +
+                            (result.Name && result.Phone ?`<button class="m-3 btn btn-warning rounded-0" onClick='updateStudent(${result.Id})'> Update</button>`  : ``) + 
+                                `<button class="m-3 btn btn-danger rounded-0" onClick='deleteStudent(${result.Id})'>Delete</button>
+                                </td>` +
+                                `</tr>`;
+                        })
+                        $("#tbl").html(html);
+                        
+                    });
+            }
+
+
+        </script>
+</body>
+</html>

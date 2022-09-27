@@ -1,0 +1,15 @@
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\obj\Debug\Lab5 (Client).csproj.AssemblyReference.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\obj\Debug\Lab5 (Client).csproj.SuggestedBindingRedirects.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\obj\Debug\Lab5 (Client).csproj.CoreCompileInputs.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5 (Client).exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5 (Client).exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5 (Client).pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5.dll.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\obj\Debug\Lab5 (Client).csproj.CopyComplete
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\obj\Debug\Lab5 (Client).exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\obj\Debug\Lab5 (Client).pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5 (Host).exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5 (Host).pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab5\Lab5 (Client)\bin\Debug\Lab5 (Host).exe.config

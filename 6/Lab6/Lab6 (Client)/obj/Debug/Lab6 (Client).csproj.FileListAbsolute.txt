@@ -1,0 +1,102 @@
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Lab6 (Client).exe.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Lab6 (Client).exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Lab6 (Client).pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\EntityFramework.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\EntityFramework.SqlServer.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Lab6.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.Optimization.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.Mvc.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.OData.EntityFrameworkProvider.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Data.Services.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\WebGrease.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.WebPages.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.WebPages.Razor.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.Razor.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Data.Edm.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Spatial.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Data.OData.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Antlr3.Runtime.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Newtonsoft.Json.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Lab6.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Lab6.dll.config
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\EntityFramework.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\EntityFramework.SqlServer.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.Optimization.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.Mvc.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.OData.EntityFrameworkProvider.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Data.Services.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.WebPages.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.WebPages.Razor.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.Razor.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Data.Edm.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Spatial.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Microsoft.Data.OData.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Antlr3.Runtime.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\Newtonsoft.Json.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\EntityFramework.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\System.Web.Optimization.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\System.Web.Mvc.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\de\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\es\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\fr\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\it\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ja\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ko\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hans\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hant\Microsoft.Data.Services.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\System.Web.WebPages.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\System.Web.Razor.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\de\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\es\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\fr\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\it\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ja\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ko\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6 (Client).csproj.AssemblyReference.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6 (Client).csproj.SuggestedBindingRedirects.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6__Client_.Form1.resources
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6__Client_.Properties.Resources.resources
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6 (Client).csproj.GenerateResource.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6 (Client).csproj.CoreCompileInputs.cache
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6 (Client).csproj.CopyComplete
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6 (Client).exe
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\5\Lab6\Lab6 (Client)\obj\Debug\Lab6 (Client).pdb

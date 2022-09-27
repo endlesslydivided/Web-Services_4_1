@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>laba8</title>
+    <script src="../../Scripts/jquery-3.4.1.js"></script>
+    <script>
+        async function Send()
+        {
+
+            let data = {
+                Id: parseInt($("#id").val()),
+                Jsonrpc: "2.0",
+                Method: $("#method").val(),
+                Params: {
+                    Key: parseInt($("#key").val()),
+                    Value: parseInt($("#val").val())
+                }
+            };
+
+     await fetch('/JRService/Single',
+         {
+             method: 'POST',
+             headers:
+             {
+                 'Content-type': 'application/json;charset=utf-8'
+             },
+             body: JSON.stringify(data)
+         })
+         .then((result) => {
+             return result.json();
+         })
+         .then((json) => {
+             $("#result").val(json.Result);
+             console.log(result);
+         })
+         .catch((error) => {
+             $("#error").val(error);
+             console.log(error);
+         });       
+        }</script>
+</head>
+<body>
+    <form id="form1">
+        <div>
+            <div>
+                <p>Id:<input type="number" id="id" value="1" /></p>
+                <p>Method:<input type="text" id="method" value="MulM" /></p>
+                <p>Key<input type="number" id="key" value="123" /></p>
+                <p>Value:<input type="text" id="val" value="2" /></p>
+                <p><input type="button" onclick="Send()" value="ajax" /></p>
+            </div>
+            <div>
+                <p>Result <input type="text" id="result" /></p>
+                <p id="error"></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

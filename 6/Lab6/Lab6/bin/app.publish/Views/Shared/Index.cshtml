@@ -5,10 +5,125 @@
 <head>
     <title>Client</title>
 </head>
+<style>
+    input[type="button"]
+    {
+        margin: 3px;
+    }
+</style>
 <body>
     <h1 id="result"></h1>
-    <input type="button" onclick="Send()" value="Send"/>
+    <fieldset>
+        <legend>Получить данные</legend>
+    <input type="button" onclick="Send()" value="Get" />
+    </fieldset>
+
+    <form>
+        <fieldset>
+            <legend>Добавить запись</legend>
+            <input name="name" type="text" placeholder="NAME"  />
+            <input type="button" onclick="Post()" value="Post" />
+        </fieldset>
+
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Обновить запись</legend>
+            <input name="name1" type="text" placeholder="NAME"  />
+            <input name="id" type="number" placeholder="ID"  />
+            <input type="button" onclick="Put()" value="Put" />
+        </fieldset>     
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Удалить запись</legend>
+            <input name="id1" type="number" placeholder="ID" />
+            <input type="button" onclick="Delete()" value="Delete" />
+        </fieldset>
+    </form>
     <script>
+
+        async function Delete()
+        {
+            await fetch(`/StudentService.svc/Student(${document.getElementsByName("id1")[0].value})`,
+                {
+                    method: 'Delete'
+
+                })
+                .then
+                (
+                    (response) => {
+                        return response.json();
+                    }
+                )
+                .then(
+                    (data) => {
+                        data.value.forEach((item) => {
+                            document.getElementById("result").innerHTML += `${item.id}.${item.name} <br/>`
+                        })
+                    }
+                );
+        }
+
+        async function Put()
+        {
+            await fetch(`/StudentService.svc/Student(${document.getElementsByName("id")[0].value})`,
+                {
+                    method: 'Put',
+                    body:JSON.stringify(
+                    {
+                                "name": document.getElementsByName("name1")[0].value
+                    }),
+                    headers: { 'Content-Type': 'application/json' }
+
+                })
+                .then
+                (
+                    (response) => {
+                        return response.json();
+                    }
+                )
+                .then(
+                    (data) => {
+                        data.value.forEach((item) => {
+                            document.getElementById("result").innerHTML += `${item.id}.${item.name} <br/>`
+                        })
+                    }
+                );
+        }
+
+        async function Post() {
+            await fetch('/StudentService.svc/Student',
+                {
+                    method: 'POST',
+                    body: JSON.stringify({
+                        "name": document.getElementsByName("name")[0].value
+                    })
+                    ,
+                    headers:
+                    {
+                        'Content-Type': 'application/json',
+                        "Accept": 'application/json'
+                    }
+
+                })
+                .then
+                (
+                    (response) => {
+                        return response.json();
+                    }
+                )
+                .then(
+                    (data) => {
+                        data.value.forEach((item) => {
+                            document.getElementById("result").innerHTML += `${item.id}.${item.name} <br/>`
+                        })
+                    }
+                );
+        }
+
         async function Send() {
             await fetch('/StudentService.svc/Student?$format=json',
                 {
@@ -17,14 +132,13 @@
                 })
                 .then
                 (
-                    (response) =>
-                    {
+                    (response) => {
                         return response.json();
                     }
                 )
                 .then(
-                    (data) =>
-                    {
+                    (data) => {
+                        document.getElementById("result").innerHTML = "";
                         data.value.forEach((item) => {
                             document.getElementById("result").innerHTML += `${item.id}.${item.name} <br/>`
                         })

@@ -75,7 +75,7 @@ namespace Lab7_Service
             }
             else if (query == "json")
             {
-                formatter = new JsonFeedFormatter(feed);
+                return responseString;
             }
             else
             {

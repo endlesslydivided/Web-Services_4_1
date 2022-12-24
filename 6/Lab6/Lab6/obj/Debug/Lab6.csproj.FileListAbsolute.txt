@@ -344,3 +344,5 @@ D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов
 D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\6\Lab6\Lab6\obj\Debug\Lab6.csproj.CopyComplete
 D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\6\Lab6\Lab6\obj\Debug\Lab6.dll
 D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\6\Lab6\Lab6\obj\Debug\Lab6.pdb
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\6\Lab6\Lab6\bin\Microsoft.OData.Client.dll
+D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\6\Lab6\Lab6\bin\Microsoft.OData.Client.xml

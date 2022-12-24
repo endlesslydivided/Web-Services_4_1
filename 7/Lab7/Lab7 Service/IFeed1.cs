@@ -16,9 +16,7 @@ namespace Lab7_Service
     [ServiceKnownType(typeof(Atom10FeedFormatter))]
     [ServiceKnownType(typeof(Rss20FeedFormatter))]
     [ServiceKnownType(typeof(JsonFeedFormatter))]
-
     [ServiceKnownType(typeof(List<Note>))]
-
     public interface IFeed1
     {
 

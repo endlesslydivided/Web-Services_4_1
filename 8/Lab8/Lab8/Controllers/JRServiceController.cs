@@ -1,5 +1,5 @@
 ﻿using Lab8.Models;
-
+using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace Lab8.Controllers
@@ -13,10 +13,10 @@ namespace Lab8.Controllers
         public JsonResult Multi(RequestJsonRPC[] body)
         {
             int length = body.Length;
-            JsonResult[] result = new JsonResult[length];
-
+            List<object> result = new List<object>();
+            
             for (int i = 0; i < length; i++)
-                result[i] = Single(body[i]);
+                result.Add(Single(body[i]).Data);
 
             return Json(result);
         }
@@ -29,7 +29,31 @@ namespace Lab8.Controllers
             string jsonrpc = body.Jsonrpc;
 
             if (ignoreMethods)
-                return Json(GetError(body.Id, new ErrorJSON { Message = "Methods are don't available", Code = -32601 }, jsonrpc));
+                return Json(GetError(body.Id, new ErrorJSON { Message = "Methods are not available", Code = -32601 }, jsonrpc));
+
+            if (string.IsNullOrEmpty(body.Id))
+            {
+                return Json(GetError(body.Id, new ErrorJSON { Message = "Invalid request", Code = -32600 }, jsonrpc));
+            }
+
+            if (!string.IsNullOrEmpty(jsonrpc))
+            {
+                if (!string.Equals(jsonrpc, "2.0"))
+                {
+                    return Json(GetError(body.Id, new ErrorJSON { Message = "Invalid request", Code = -32600 }, jsonrpc));
+                }
+            }
+            else
+            {
+                return Json(GetError(body.Id, new ErrorJSON { Message = "Invalid request", Code = -32600 }, jsonrpc));
+            }
+
+            if (param == null)
+            {
+                return Json(GetError(body.Id, new ErrorJSON { Message = "Invalid params", Code = -32602 }, jsonrpc));
+            }
+
+          
 
             if (param == null)
             {
@@ -66,7 +90,7 @@ namespace Lab8.Controllers
                 Jsonrpc = jsonrpc,
                 Method = body.Method,
                 Result = result
-            }, JsonRequestBehavior.AllowGet
+            }
             );
         }
 

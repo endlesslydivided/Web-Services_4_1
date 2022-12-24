@@ -11,6 +11,7 @@
     <script>
         async function Send()
         {
+            $("#error").text("");
 
             let data = {
                 Id: parseInt($("#id").val()),
@@ -35,27 +36,30 @@
              return result.json();
          })
          .then((json) => {
+             if (json.Error) {
+                 throw json.Error.Message;
+             }
              $("#result").val(json.Result);
              console.log(result);
          })
          .catch((error) => {
-             $("#error").val(error);
+             $("#error").text(error);
              console.log(error);
          });       
         }</script>
 </head>
 <body>
-    <form id="form1">
+    <form id="form1" style="padding:20px">
         <div>
-            <div>
+            <div style="">
                 <p>Id:<input type="number" id="id" value="1" /></p>
                 <p>Method:<input type="text" id="method" value="MulM" /></p>
-                <p>Key<input type="number" id="key" value="123" /></p>
+                <p>Key:<input type="number" id="key" value="123" /></p>
                 <p>Value:<input type="text" id="val" value="2" /></p>
                 <p><input type="button" onclick="Send()" value="ajax" /></p>
             </div>
             <div>
-                <p>Result <input type="text" id="result" /></p>
+                <p>Result: <input type="text" id="result" /></p>
                 <p id="error"></p>
             </div>
         </div>

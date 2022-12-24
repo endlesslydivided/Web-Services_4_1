@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\ALEX\STUDY\7SEM_4COURSE\Программирование web-сервисов\Лабораторные работы\6\Lab6\Lab6\bin\app.publish\</_PublishTargetUrl>
-    <History>True|2022-09-14T18:32:52.6476330Z;</History>
+    <History>True|2022-10-03T07:29:25.7746548Z;True|2022-09-14T21:32:52.6476330+03:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -111,10 +111,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/01/2014 20:43:58</publishTime>
     </File>
     <File Include="bin/Lab6.dll">
-      <publishTime>09/14/2022 21:36:24</publishTime>
+      <publishTime>10/03/2022 10:49:47</publishTime>
     </File>
     <File Include="bin/Lab6.pdb">
-      <publishTime>09/14/2022 21:36:24</publishTime>
+      <publishTime>10/03/2022 10:49:47</publishTime>
     </File>
     <File Include="bin/Microsoft.Bcl.AsyncInterfaces.dll">
       <publishTime>10/19/2020 18:40:36</publishTime>
